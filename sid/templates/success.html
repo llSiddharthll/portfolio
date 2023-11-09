@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Success</title>
+    <title>Siddharth Portfolio</title>
     <style>
         .thankyou-wrapper{
           width:100%;
@@ -19,8 +19,9 @@
           padding:0px 10px 10px;
         }
         .thankyou-wrapper p{
-          font:26px Arial, Helvetica, sans-serif;
+          font:15px Arial, Helvetica, sans-serif;
           text-align:center;
+          font-weight: 600;
           color:#333333;
           padding:5px 10px 10px;
         }
@@ -48,6 +49,19 @@
           padding:15px 20px 15px;
           border-bottom:5px solid #F96700;
         }
+        @media (max-width:767px){
+            .thankyou-wrapper{
+                display: grid;
+                padding-top: 80%;
+            }
+            .thankyou-wrapper p{
+                font-size: 42px;
+            }
+            .thankyou-wrapper a{
+                font-size: 40px;
+                width: 300px;
+            }
+        }
         </style>
 </head>
 <body>
@@ -57,7 +71,7 @@
                 <div class="login-main-container">
                     <div class="thankyou-wrapper">
                         <h1><img src="http://montco.happeningmag.com/wp-content/uploads/2014/11/thankyou.png" alt="thanks" /></h1>
-                          <p>for contacting us, we will get in touch with you soon... </p>
+                          <p>Thank you for your interest! I'm eager to connect and discuss how my skills align with your needs. I'll review your message and look forward to the possibility of working together.</p>
                           <a href="{% url 'home' %}">Back to home</a>
                           <div class="clr"></div>
                       </div>
