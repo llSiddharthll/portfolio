@@ -346,26 +346,27 @@
           </div>
           <div class="column right">
             <div class="text">Message me</div>
-            <form method="post" action="{% url 'success' %}">
+            <form method="post" action="{% url 'home' %}">
               {% csrf_token %}
               <div class="fields">
-                <div class="field name">
-                  {{ form.name }}
-                </div>
-                <div class="field email">
-                  {{ form.email }}
-                </div>
+                  <div class="field name">
+                      {{ form.name }}
+                  </div>
+                  <div class="field email">
+                      {{ form.email }}
+                  </div>
               </div>
               <div class="field">
-                {{ form.subject }}
+                  {{ form.subject }}
               </div>
               <div class="field textarea">
-                {{ form.message }}
+                  {{ form.message }}
               </div>
               <div class="button-area">
-                <button type="submit">Send message</button>
+                  <button type="submit">Send message</button>
               </div>
-            </form>
+          </form>
+          
           </div>
         </div>
       </div>
