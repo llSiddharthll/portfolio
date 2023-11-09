@@ -80,7 +80,7 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'Postgres',
+        'NAME': 'railway',
         'USER': 'postgres',
         'PASSWORD': 'GG5DAgC6dcc246DAB35Cff1Fb3eDcFfD',
         'HOST': 'roundhouse.proxy.rlwy.net',  # Set to the appropriate host
