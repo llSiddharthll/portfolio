@@ -1190,6 +1190,9 @@ footer .wave#wave4
     .services .serv-content .card{
         width: 100%;
     }
+    .mk-small{
+        font-size: medium;
+    }
 }
 
 @media (max-width: 500px) {
