@@ -77,17 +77,6 @@ WSGI_APPLICATION = 'portfolio.wsgi.application'
 # https://docs.djangoproject.com/en/4.2/ref/settings/#databases
 
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'GG5DAgC6dcc246DAB35Cff1Fb3eDcFfD',
-        'HOST': 'roundhouse.proxy.rlwy.net',  # Set to the appropriate host
-        'PORT': '12729',       # Set to the appropriate port
-    }
-}
-
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
